@@ -5,9 +5,20 @@ theme = 'PaperMod'
 
 [params.profileMode]
 enabled = true
-title = "Binnenkort beschikbaar" # optional default will be site title
-subtitle = "Informatie over het 3DBAG innovatie platform"
-# imageUrl = "<image link>" # optional
-# imageTitle = "<title of image as alt>" # optional
-# imageWidth = 120 # custom size
-# imageHeight = 120 # custom size
+title = "3D BAG Innovatieplatform (Binnenkort beschikbaar...)"
+subtitle = "Dit is de website van het 3DBAG innovatieplatform. Dit platform wordt gecoördineerd door Geonovum. Op deze website wordt een uitleg gegeven van het platform en worden activiteiten, resultaten etc van het platform gepubliceerd. "
+imageUrl = "./images/tud.jpg"
+imageWidth = 400  
+imageHeight = 400 
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about"
+
+[[params.profileMode.buttons]]
+name = "Publicaties"
+url = "/publicaties"
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/3DBAG"
