@@ -1,9 +1,14 @@
 ---
-title: "Publicaties"
-layout: "Publicaties"
-url: "/publicaties/"
-summary: publicaties
+title: "Publications"
+layout: page/single.html
+summary: "Our relevant research, publications, interviews and podcasts"
+omit_header_text: true
+# featured_image: '/images/tud.jpg'
+menu:
+  main:
+    weight: 2
 ---
+
 
 - Automated 3d reconstruction of lod2 and lod1 models for all 10 million buildings of the netherlands. Ravi Peters, Balázs Dukai, Stelios Vitalis, Jordi van Liempt and Jantien Stoter. Photogrammetric Engineering and Remote Sensing 88(3), 2022.
 
