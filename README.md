@@ -10,7 +10,7 @@ Requirements:
 From within the repo's root directory:
 
 ```shell
-git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 git submodule update --init --recursive
 ```
 ### Serve locally:

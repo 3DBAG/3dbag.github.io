@@ -1,24 +1,58 @@
-baseURL = 'https://innovation.3dbag.nl/'
-languageCode = 'nl-nl'
-title = '3DBAG Innovatie Platform'
-theme = 'PaperMod'
+title = "3D Innovatie Platform"
+baseURL = "https://innovation.3dbag.nl"
+theme = "ananke"
+resourceDir = "../resources"
 
-[params.profileMode]
-enabled = true
-#title = "3D BAG Innovatieplatform (Binnenkort beschikbaar...)"
-subtitle = "Dit is de website van het 3DBAG innovatieplatform. Dit platform wordt gecoördineerd door Geonovum. Op deze website wordt een uitleg gegeven van het platform en worden activiteiten, resultaten etc van het platform gepubliceerd. "
-imageUrl = "./images/tud.jpg"
-imageWidth = 400  
-imageHeight = 400 
+defaultContentLanguage = "nl"
+sectionPagesMenu = "main"
+enableRobotsTXT = true
 
-[[params.profileMode.buttons]]
-name = "About"
-url = "/about"
+[pagination]
+pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 
-[[params.profileMode.buttons]]
-name = "Publicaties"
-url = "/publicaties"
+[languages.nl]
+contentDir = "content/nl"
+languageCode = 'nl-NL'
+weight = 1
+title = "3DBAG Innovatie Platform"
 
-[[params.socialIcons]]
-name = "Github"
-url = "https://github.com/3DBAG"
+[languages.en]
+contentDir = "content/en"
+languageCode = 'en-US'
+weight = 2
+title = "3DBAG Innovation Platform"
+
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+text_color = "mid-gray"
+author = ""
+favicon = 'img/favicon.ico'
+site_logo = ""
+description = "" 
+# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+background_color_class = "bg-purple"
+# choose fitting and alignment styles for the featured image using Tachyons classes such as "cover|contain" for fitting and "bg-top|bg-center|bg-bottom" for alignment, or add any other class space-separated to customize further
+featured_image_class = "cover bg-top"
+# choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
+cover_dimming_class = "bg-purple-60"
+recent_posts_number = 4
+body_classes = "avenir bg-near-white"
+
+[params.ananke.social.share]
+networks = [
+  "linkedin"
+]
+
+[params.ananke.social.follow]
+networks = [
+  "github"
+]
+
+[params.ananke.social.github]   
+username = "3DBAG"
+profilelink = "https://github.com/3DBAG"
