@@ -51,3 +51,11 @@ menu:
 
 - Erik Heeres: [Exploring the 3D BAG: How to define it and to what extent can it automatically be created using open data](https://repository.tudelft.nl/record/uuid:bb4a1667-1d6f-41ac-b12e-fb70c0013881)
 
+
+## Presentations
+
+- [3DBAG update on AHN5 release](https://docs.google.com/presentation/d/1rPM43oHAK3A7QOC7gwXXJwtq5RjQ29KLCLtnT8PY8o4/export?format=pdf) - Balazs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter *(3DBAG Innovatie platform
+21-11-2024, Online)*
+
+- [3DBAG:open source software for automatic LoD2 reconstruction applied to 10M buildings](https://docs.google.com/presentation/d/1OUoMpMO3odwER8fXws-wcq9bQdVfSFAC6dN8wOSciJs/export?format=pdf) - Ravi Peters, Gina Stavropoulou, Balazs Dukai, Jantien Stoter  *(EuroSDR Workshop on 3D Mapping at NMCA’s
+23-01-2025, Paris)*
