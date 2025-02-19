@@ -58,6 +58,6 @@ menu:
 
 - [3DBAG update on AHN5 release](https://docs.google.com/presentation/d/1rPM43oHAK3A7QOC7gwXXJwtq5RjQ29KLCLtnT8PY8o4/export?format=pdf) - Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter *(3DBAG Innovatie platform, 21-11-2024, Online)*
 
--[3D BAG Developers’ meeting](https://docs.google.com/presentation/d/1uKUykKTFQLfr0dBk18neXGkKz04Ug8W_l9HzmXINGj8/export?format=pdf) - Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter, Hugo Ledoux, Ivan Pađen *(3D BAG Developers’ meeting, 13-11-2024, Online)*
+- [3D BAG Developers’ meeting](https://docs.google.com/presentation/d/1uKUykKTFQLfr0dBk18neXGkKz04Ug8W_l9HzmXINGj8/export?format=pdf) - Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter, Hugo Ledoux, Ivan Pađen *(3D BAG Developers’ meeting, 13-11-2024, Online)*
 
 - [How can you use the 3DBAG?](https://docs.google.com/presentation/d/1v3JZPtL3qTSvdU-iGPQTQuFN1Uq5InCb5jVIBiqoFmA/export?format=pdf) - Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter *(Geonovum Open Geodag, 7-11-2024, Amersfoort)*
