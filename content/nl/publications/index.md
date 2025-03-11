@@ -61,3 +61,5 @@ menu:
 - [3D BAG Developers’ meeting](https://docs.google.com/presentation/d/1uKUykKTFQLfr0dBk18neXGkKz04Ug8W_l9HzmXINGj8/export?format=pdf) - Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter, Hugo Ledoux, Ivan Pađen *(3D BAG Developers’ meeting, 13-11-2024, Online)*
 
 - [How can you use the 3DBAG?](https://docs.google.com/presentation/d/1v3JZPtL3qTSvdU-iGPQTQuFN1Uq5InCb5jVIBiqoFmA/export?format=pdf) - Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter *(Geonovum Open Geodag, 7-11-2024, Amersfoort)*
+
+- [Aan de slag met 3DBAG!](https://docs.google.com/presentation/d/1GDk_VXWuNjOuo4xUvyuwXVXSmlZ2gmBCR0vHVcD3iUc/export?format=pdf) Ravi Peters, Jantien Stoter, Balázs Dukai, Gina Stavropoulou, *(ZoNline, 11-03-2025, Online)*. Recording available [here](https://www.youtube.com/watch?v=r0ZGJN8jUto).
