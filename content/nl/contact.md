@@ -6,7 +6,7 @@ summary: We horen graag van je!
 type: page
 menu:
   main:
-    weight: 4
+    weight: 5
 ---
 
 # Word lid van de community
