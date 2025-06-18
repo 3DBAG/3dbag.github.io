@@ -11,12 +11,12 @@ menu:
 
 ## Opname beschikbaar: 2nd 3DBAG Developers’ Meeting (28 mei 2025)
 
-Op 28 mei 2025 organiseerden we de tweede 3DBAG Ontwikkelaarsbijeenkomst. Tijdens het evenement werden de nieuwste ontwikkelingen van de 3D Geoinformation Group en 3DGI gepresenteerd, evenals waardevolle inzichten gedeeld door gebruikers die 3DBAG hebben toegepast op hun eigen data en projecten.
+Op 28 mei 2025 organiseerden we de tweede 3DBAG Ontwikkelaarsbijeenkomst. Tijdens het evenement werden de nieuwste ontwikkelingen van de 3D Geoinformation Group en 3DGI gepresenteerd, evenals waardevolle inzichten gedeeld door gebruikers van het Franse National Institute of Geographical and Forest Information (IGNF) en het Geodetisch Instituut van Slovenië (GIS), die 3DBAG hebben toegepast op hun eigen data en projecten.
 
 Kon je er niet bij zijn, maar wil je meer weten over het project en de mogelijkheden? De volledige opname is nu beschikbaar.
 
 Evenement: 2nd 3DBAG Developers’ Meeting (Online)  
-Sprekers: Balázs Dukai (3DGI), Ravi Peters (3DGI), Gina Stavropoulou (3D geoinformation), Jantien Stoter (3D geoinformation), Hugo Ledoux (3D geoinformation)
+Sprekers: Balázs Dukai (3DGI), Ravi Peters (3DGI), Gina Stavropoulou (3D geoinformation), Jantien Stoter (3D geoinformation), Hugo Ledoux (3D geoinformation), Emmanuel Séguin (IGNF), Nicolas Bellaiche (IGNF), Primož Kete (GIS).
 
 👉 [Bekijk de volledige opname hier](https://youtu.be/M1ebdA58cg8)
 
