@@ -6,7 +6,7 @@ omit_header_text: true
 # featured_image: '/images/tud.jpg'
 menu:
   main:
-    weight: 2
+    weight: 3
 ---
 
 
