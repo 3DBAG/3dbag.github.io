@@ -49,6 +49,8 @@ Speciale dank aan **Amir Hakim** voor zijn werk aan de IFC-exportfunctionaliteit
 - b3_opp_dak_*, b3_opp_grond houden geen rekening met gaten in het polygoon.
 - BAG datum/tijd-attributen in GPKG-uitvoer zijn van het type string
 
+---
+
 ## Opname beschikbaar: 2nd 3DBAG Developers’ Meeting
 *18.06.2025*
 
@@ -61,6 +63,8 @@ Sprekers: Balázs Dukai (3DGI), Ravi Peters (3DGI), Gina Stavropoulou (3D geoinf
 
 👉 [Bekijk de volledige opname hier](https://youtu.be/M1ebdA58cg8)
 
+
+---
 
 ## 3DBAG ontwikkelaarsbijeenkomst op 28 mei 2025
 *21.05.2025*
@@ -82,6 +86,8 @@ Als je geïnteresseerd bent in 3D-geodata, open-source tools, of wilt bijdragen 
 
 🔗 [Aanmelden kan hier](https://www.geonovum.nl/agenda/3dbag-developers-meeting-may-28-2025)
 
+---
+
 ##  Opname beschikbaar: 3DBAG Ontwikkelaarsbijeenkomst (13 nov 2024)
 *27.11.2024*
 
@@ -98,6 +104,8 @@ Datum: 13 november 2024
 
 We hopen dat je het interessant vindt — en houd ons in de gaten voor de volgende bijeenkomst!
 
+---
+
 ## Activiteiten 2024: opstarten 3DBAG innovatie platform
 *26.11.2024*
 
@@ -108,7 +116,7 @@ De activiteiten voor het opstarten van het 3DBAG innovatieplatform zijn:
 
 - **Nieuwe release 3DBAG op basis van AHN5**. AHN5 is beschikbaar voor 2/3 van Nederland. Binnen de samenwerking van het 3DBAG innovatieplatform is een studie gedaan naar de impact van het gebruik van AHN5 op de 3DBAG. Tevens zal er een nieuwe 3D BAG release worden uitgebracht op basis van AHN5.
 
-####  Presentaties van 3DBAG-gebruikers
+#####  Presentaties van 3DBAG-gebruikers
 
 - Bas-Jan Lubbers, TwinTopics, [TwinTopics bouwt het Platform TwinSPoT en gebruikt de 3DBAG om BIM modellen te positioneren voor haar Digital Twin van Gebouwen in haar omgeving](https://drive.google.com/file/d/1QY5nSh74CnMXi2EhAHAEyAA7GD3gOXQR/view?usp=drive_link)
 - Christiaan Schreuder, ABN Amro, over klimaatrisico modellering afgemeld

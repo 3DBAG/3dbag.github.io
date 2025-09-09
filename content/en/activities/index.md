@@ -50,6 +50,8 @@ Special thanks to **Amir Hakim** for his work on the IFC export functionality.
 - BAG date/time attributes in GPKG output are of the string type
 
 
+---
+
 ##  Recording Available: 2nd 3DBAG Developers' Meeting
 *18.06.2025*
 
@@ -64,6 +66,7 @@ Balázs Dukai (3DGI), Ravi Peters (3DGI), Gina Stavropoulou (3D geoinformation),
 
 👉 [Watch the full recording here](https://youtu.be/M1ebdA58cg8)
 
+---
 
 ## 3DBAG developers' meeting on May 28, 2025
 *21.05.2025*
@@ -87,6 +90,7 @@ If you're interested in 3D geodata, open-source tools, or want to contribute to 
 
 🔗 [Registration here](https://www.geonovum.nl/agenda/3dbag-developers-meeting-may-28-2025)
 
+---
 
 ##  Recording Available: 3DBAG Developers' Meeting (13 Nov 2024)
 *27.11.2024*
@@ -104,6 +108,7 @@ Date: 13 November 2024
 
 We hope you find it insightful — and stay tuned for the next one!
 
+---
 
 ## Activities 2024: launching the 3DBAG innovation platform
 *26.11.2024*
@@ -117,7 +122,7 @@ The activities for launching the 3DBAG innovation platform in 2024 were the foll
 
 - **New release of 3DBAG based on AHN5**. AHN5 is now available for 2/3 of the Netherlands. Within the collaboration of the 3DBAG innovation platform, a study has been conducted on the impact of using AHN5 on the 3DBAG. Additionally, a new 3D BAG release will be issued based on AHN5.
 
-####  3DBAG User's Presentations
+#####  3DBAG User's Presentations
 
 - Bas-Jan Lubbers, TwinTopics, [TwinTopics bouwt het Platform TwinSPoT en gebruikt de 3DBAG om BIM modellen te positioneren voor haar Digital Twin van Gebouwen in haar omgeving](https://drive.google.com/file/d/1QY5nSh74CnMXi2EhAHAEyAA7GD3gOXQR/view?usp=drive_link)
 - Christiaan Schreuder, ABN Amro, over klimaatrisico modellering afgemeld
