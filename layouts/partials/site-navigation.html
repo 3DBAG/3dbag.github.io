@@ -1,5 +1,5 @@
 <header class="site-header wrap">
-  <a class="brand" href="{{ .Site.Home.RelPermalink }}"><strong>3DBAG</strong><span>{{ if eq .Language.Lang "nl" }}Innovatie Platform{{ else }}Innovation Platform{{ end }}</span></a>
+  <a class="brand" href="{{ .Site.Home.RelPermalink }}"><strong>3DBAG</strong><span class="wordmark-subtitle">{{ if eq .Language.Lang "nl" }}Innovatie Platform{{ else }}Innovation Platform{{ end }}</span></a>
   <nav aria-label="{{ if eq .Language.Lang "nl" }}Hoofdnavigatie{{ else }}Main navigation{{ end }}">
     {{ range .Site.Menus.main }}<a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
     <span class="languages"><span aria-current="true">{{ upper .Language.Lang }}</span>{{ range .Translations }}<a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}">{{ upper .Language.Lang }}</a>{{ end }}</span>

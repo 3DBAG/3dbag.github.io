@@ -2,8 +2,8 @@
 {{ $nl := eq .Language.Lang "nl" }}
 <div class="wrap">
   <section class="hero" aria-labelledby="hero-title">
-    <p class="eyebrow">{{ if $nl }}3D-gebouwdata · Open data · Open source{{ else }}3D building data · Open data · Open source{{ end }}</p>
-    <h1 id="hero-title">3DBAG<br>{{ if $nl }}Innovatie Platform{{ else }}Innovation Platform{{ end }}</h1>
+    <p class="eyebrow">{{ if $nl }}Open 3D-gebouwdata{{ else }}Open 3D building data{{ end }}</p>
+    <h1 id="hero-title">{{ if $nl }}Ontdek wat je met<br>3DBAG kunt bouwen.{{ else }}Discover what you can<br>build with 3DBAG.{{ end }}</h1>
     <div class="hero-intro"><p>{{ .Description }}</p><div class="hero-actions"><a class="button" href="https://3dbag.nl/">{{ if $nl }}Bekijk 3DBAG{{ else }}Explore 3DBAG{{ end }} <span aria-hidden="true">↗</span></a></div></div>
     <figure class="hero-image"><img src="{{ "images/city-concept.png" | relURL }}" alt="" fetchpriority="high" width="2048" height="683"><figcaption><span>{{ if $nl }}3D-gebouwmodellen van Nederland{{ else }}3D building models of the Netherlands{{ end }}</span><span>{{ if $nl }}Conceptillustratie{{ else }}Concept illustration{{ end }}</span></figcaption></figure>
   </section>
