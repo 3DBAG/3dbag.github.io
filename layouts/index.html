@@ -1,51 +1,30 @@
 {{ define "main" }}
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-      {{ .Content }}
-    </article>
-    {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
-    {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
-    
-    {{/* Check to see if the section is defined for ranging through it */}}
-    {{range ($mainSections)}}
-    {{/* Derive the section name  */}}
-    {{ $section_name := . }}
-    {{/* Create a variable with that section to use in multiple places. */}}
-    {{ $section := where $.Site.RegularPages "Section" "in" $section_name }}
-    {{ $section_count := len $section }}
-    {{ if ge $section_count 1 }}
-      <div class="pa3 pa4-ns w-100 w-70-ns center">
-        {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
-
-        <section class="w-100 mw8 summary-grid">
-          {{/* Range through the first $n_posts items of the section */}}
-          {{ range (first $n_posts $section) }}
-            <div class="relative w-100 mb4">
-              {{ .Render "summary-with-image" }}
-            </div>
-          {{ end }}
-        </section>
-
-        {{ if ge $section_count (add $n_posts 1) }}
-        <section class="w-100">
-          <h1 class="f3">{{ i18n "more" }}</h1>
-          {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
-          {{ range (first 4 (after $n_posts $section))  }}
-            <h2 class="f5 fw4 mb4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "ml3" "mr3" }}">
-              <a href="{{ .RelPermalink }}" class="link black dim">
-                {{ .Title }}
-              </a>
-            </h2>
-          {{ end }}
-
-          {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
-          {{ with $.Site.GetPage "section" $section_name }}
-            <a href="{{ .RelPermalink }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">{{ i18n "allTitle" . }}</a>
-          {{ end }}
-          </section>
-        {{ end }}
-
-        </div>
-    {{ end }}
+{{ $nl := eq .Language.Lang "nl" }}
+<div class="wrap">
+  <section class="hero" aria-labelledby="hero-title">
+    <p class="eyebrow">{{ if $nl }}3D-gebouwdata · Open data · Open source{{ else }}3D building data · Open data · Open source{{ end }}</p>
+    <h1 id="hero-title">3DBAG<br>{{ if $nl }}Innovatie Platform{{ else }}Innovation Platform{{ end }}</h1>
+    <div class="hero-intro"><p>{{ .Description }}</p><div class="hero-actions">{{ with .Site.GetPage "about" }}<a class="button" href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a>{{ end }}<a class="text-link" href="https://3dbag.nl/">{{ if $nl }}Bekijk 3DBAG{{ else }}Explore 3DBAG{{ end }} <span aria-hidden="true">↗</span></a></div></div>
+    <figure class="hero-image"><img src="{{ "images/city-concept.png" | relURL }}" alt="" fetchpriority="high" width="2048" height="683"><figcaption><span>{{ if $nl }}3D-gebouwmodellen van Nederland{{ else }}3D building models of the Netherlands{{ end }}</span><span>{{ if $nl }}Conceptillustratie{{ else }}Concept illustration{{ end }}</span></figcaption></figure>
+  </section>
+  {{ with .Site.GetPage "about" }}
+  <section class="intro section"><div><p class="eyebrow marker">01 / {{ .Title }}</p><h2>{{ if $nl }}Wat is de 3DBAG?{{ else }}What is the 3DBAG?{{ end }}</h2></div><div class="intro-copy"><div>{{ .Summary }}</div><a class="text-link" href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></div></section>
   {{ end }}
-{{end}}
-    
+  <section class="destinations" aria-label="{{ if $nl }}Ontdek het platform{{ else }}Explore the platform{{ end }}">
+    {{ range $i, $path := slice "activities" "publications" "contact" }}{{ with $.Site.GetPage $path }}<a href="{{ .RelPermalink }}"><span class="destination-number" aria-hidden="true">0{{ add $i 1 }} /</span><h2>{{ .Title }}</h2><p>{{ .Summary | plainify | htmlUnescape }}</p><span class="arrow" aria-hidden="true">↗</span></a>{{ end }}{{ end }}
+  </section>
+  {{ with .Site.GetPage "activities" }}
+  <section class="section news"><div class="section-heading"><div><p class="eyebrow marker">02 / {{ if $nl }}Actueel{{ else }}Updates{{ end }}</p><h2>{{ .Title }}</h2></div><a class="text-link" href="{{ .RelPermalink }}">{{ if $nl }}Alle berichten{{ else }}All updates{{ end }} ↗</a></div>
+    <div class="news-grid">{{ $news := . }}
+    {{ $headings := findRE `(?s)<h2 id="[^"]+">.*?</h2>\s*<p><em>.*?</em></p>\s*<p>.*?</p>` .Content 3 }}
+    {{ range $headings }}
+      {{ $id := replaceRE `(?s)^<h2 id="([^"]+)">.*$` "$1" . }}
+      {{ $title := replaceRE `(?s)^<h2[^>]*>(.*?)</h2>.*$` "$1" . | plainify | htmlUnescape }}
+      {{ $date := replaceRE `(?s)^.*?<em>(.*?)</em>.*$` "$1" . | plainify | htmlUnescape }}
+      {{ $body := replaceRE `(?s)^.*?</em></p>\s*<p>(.*?)</p>$` "$1" . | plainify | htmlUnescape }}
+      <article><p class="eyebrow">{{ $date }}</p><h3><a href="{{ $news.RelPermalink }}#{{ $id }}">{{ $title }}</a></h3><p>{{ $body | truncate 200 }}</p><a class="article-link" href="{{ $news.RelPermalink }}#{{ $id }}">{{ if $nl }}Lees meer{{ else }}Read more{{ end }}<span aria-hidden="true">↗</span></a></article>
+    {{ end }}</div>
+  </section>{{ end }}
+  <section class="section partners"><p class="eyebrow marker">03 / {{ if $nl }}Samenwerking{{ else }}Collaboration{{ end }}</p><h2>{{ if $nl }}Onze partners{{ else }}Our partners{{ end }}</h2>{{ partial "partners-gallery.html" . }}</section>
+</div>
+{{ end }}

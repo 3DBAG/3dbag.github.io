@@ -1,11 +1,1 @@
-<div class="container partners">
-    <div class="row">
-      {{ range .Site.Data.partners }}
-        <div class="col-md-3 col-sm-6 mb-4">
-          <div class="partner-logo"  style="background-color: white; padding: 10px;">
-            <img src="{{ .image }}" alt="{{ .name }}" class="img-fluid">
-          </div>
-        </div>
-      {{ end }}
-    </div>
-  </div>
+<div class="partners-grid">{{ range .Site.Data.partners }}<div class="partner"><img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" width="150" height="80"></div>{{ end }}</div>

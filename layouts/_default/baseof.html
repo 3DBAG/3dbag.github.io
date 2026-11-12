@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ .Site.Language.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  {{ if not hugo.IsProduction }}<meta name="robots" content="noindex, nofollow">{{ end }}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Description | default (.Summary | plainify) }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/refined.css" | relURL }}">
+  {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ $.Site.Title }}">{{ end }}
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ if eq .Language.Lang "nl" }}Naar inhoud{{ else }}Skip to content{{ end }}</a>
+  {{ partial "site-navigation.html" . }}
+  <main id="main">{{ block "main" . }}{{ end }}</main>
+  {{ partial "site-footer.html" . }}
+</body>
+</html>
