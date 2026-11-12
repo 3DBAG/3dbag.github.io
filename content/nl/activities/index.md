@@ -61,7 +61,7 @@ Kon je er niet bij zijn, maar wil je meer weten over het project en de mogelijkh
 Evenement: 2nd 3DBAG Developers’ Meeting (Online)  
 Sprekers: Balázs Dukai (3DGI), Ravi Peters (3DGI), Gina Stavropoulou (3D geoinformation), Jantien Stoter (3D geoinformation), Hugo Ledoux (3D geoinformation), Emmanuel Séguin (IGNF), Nicolas Bellaiche (IGNF), Primož Kete (GIS).
 
-👉 [Bekijk de volledige opname hier](https://youtu.be/M1ebdA58cg8)
+[Bekijk de volledige opname hier](https://youtu.be/M1ebdA58cg8)
 
 
 ---
@@ -82,9 +82,9 @@ Of je nu al gebruiker bent of net begint, dit is een mooie kans om:
 De sessie wordt gefinancierd door het 3DBAG Innovatieplatform en [Geonovum](https://www.geonovum.nl/).
 Als je geïnteresseerd bent in 3D-geodata, open-source tools, of wilt bijdragen aan het 3DBAG-project, zien we je graag!
 
-📍 De sessie zal in het Engels worden gehouden.
+De sessie zal in het Engels worden gehouden.
 
-🔗 [Aanmelden kan hier](https://www.geonovum.nl/agenda/3dbag-developers-meeting-may-28-2025)
+[Aanmelden kan hier](https://www.geonovum.nl/agenda/3dbag-developers-meeting-may-28-2025)
 
 ---
 
@@ -100,7 +100,7 @@ Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter, Hugo Ledoux, Ivan
 Evenement: 3DBAG Ontwikkelaarsbijeenkomst (Online)  
 Datum: 13 november 2024
 
-👉 [Bekijk de volledige opname hier](https://www.youtube.com/watch?v=jctlRddCgiU)
+[Bekijk de volledige opname hier](https://www.youtube.com/watch?v=jctlRddCgiU)
 
 We hopen dat je het interessant vindt — en houd ons in de gaten voor de volgende bijeenkomst!
 
