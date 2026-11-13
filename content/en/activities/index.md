@@ -120,7 +120,7 @@ The activities for launching the 3DBAG innovation platform in 2024 were the foll
 
 - **Starting the 3DBAG Developers community**. The 3DBAG developers community consists of developers who either want to use the software (and not the already reconstructed 3D data), for example based on their own data sources, or want to enrich and expand the software with new features. To start this community, a kick-off was organized on Wednesday, November 13, 2024. Since the use and further development of the software is also relevant outside the Netherlands, the developers community will have an international character.
 
-- **New release of 3DBAG based on AHN5**. AHN5 is now available for 2/3 of the Netherlands. Within the collaboration of the 3DBAG innovation platform, a study has been conducted on the impact of using AHN5 on the 3DBAG. Additionally, a new 3D BAG release will be issued based on AHN5.
+- **New release of 3DBAG based on AHN5**. AHN5 is now available for 2/3 of the Netherlands. Within the collaboration of the 3DBAG innovation platform, a study has been conducted on the impact of using AHN5 on the 3DBAG. Additionally, a new 3DBAG release will be issued based on AHN5.
 
 #####  3DBAG User's Presentations
 

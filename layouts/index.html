@@ -2,7 +2,7 @@
 {{ $nl := eq .Language.Lang "nl" }}
 <div class="wrap">
   <section class="hero" aria-labelledby="hero-title">
-    <p class="eyebrow">{{ if $nl }}Open 3D-gebouwdata{{ else }}Open 3D building data{{ end }}</p>
+    <p class="eyebrow">{{ if $nl }}Alle 10 miljoen gebouwen van Nederland in 3D{{ else }}All 10 million buildings of the Netherlands in 3D{{ end }}</p>
     <h1 id="hero-title">{{ if $nl }}Samen werken aan<br>de toekomst van 3DBAG{{ else }}Working together for<br>the future of 3DBAG.{{ end }}</h1>
     <div class="hero-intro"><p>{{ .Description }}</p><div class="hero-actions"><a class="button" data-open-map href="https://3dbag.nl/{{ if $nl }}nl{{ else }}en{{ end }}/viewer?basemap=openfreemap&amp;lod=lod22">Open in 3DBAG <span aria-hidden="true">↗</span></a></div></div>
     <figure class="hero-image" data-home-map>
