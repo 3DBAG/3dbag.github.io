@@ -106,3 +106,10 @@ Picking is disabled with `enablePicking: false`. “Open in 3DBAG” follows the
 current camera, including orbit changes, using the matching language and
 `basemap=openfreemap&lod=lod22`. Camera coordinates come from the engine's
 `camera-change` event and are refreshed on click.
+
+## Shared publications
+
+Edit the Markdown files in `assets/shared/publications/` to update the references,
+interviews, theses or presentations on both language pages. Page titles,
+summaries and section headings remain in `content/en/publications/` and
+`content/nl/publications/` so they can be translated independently.

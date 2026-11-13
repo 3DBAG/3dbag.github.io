@@ -1,0 +1,5 @@
+{{ $section := .Get 0 }}
+{{ $path := printf "shared/publications/%s.md" $section }}
+{{ $content := resources.Get $path }}
+{{ if not $content }}{{ errorf "Shared publication content not found: %s" $path }}{{ end }}
+{{ .Page.RenderString (dict "display" "block") $content.Content }}
