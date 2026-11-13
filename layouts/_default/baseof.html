@@ -7,7 +7,8 @@
   <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{ .Description | default (.Summary | plainify) }}">
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
+  <link rel="icon" href="{{ "img/favicon.ico" | relURL }}" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="{{ "img/favicon.svg" | relURL }}" type="image/svg+xml" sizes="any">
   <link rel="stylesheet" href="{{ "css/refined.css" | relURL }}">
   {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ $.Site.Title }}">{{ end }}
 </head>

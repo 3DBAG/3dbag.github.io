@@ -1,5 +1,5 @@
 ---
-title: "Ons nieuws"
+title: "News"
 layout: page/single.html
 summary: "Ons laatste nieuws"
 omit_header_text: true

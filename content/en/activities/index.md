@@ -1,5 +1,5 @@
 ---
-title: "Our News"
+title: "News"
 layout: page/single.html
 summary: "Our latest news"
 omit_header_text: true
