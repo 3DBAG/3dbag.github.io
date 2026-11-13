@@ -1,5 +1,5 @@
 ---
-title: "Our News"
+title: "News"
 layout: page/single.html
 summary: "Our latest news"
 omit_header_text: true
@@ -64,7 +64,7 @@ Event: 2nd 3DBAG Developers’ Meeting (Online)
 Speakers:
 Balázs Dukai (3DGI), Ravi Peters (3DGI), Gina Stavropoulou (3D geoinformation), Jantien Stoter (3D geoinformation), Hugo Ledoux (3D geoinformation), Emmanuel Séguin (IGNF), Nicolas Bellaiche (IGNF), Primož Kete (GIS).
 
-👉 [Watch the full recording here](https://youtu.be/M1ebdA58cg8)
+[Watch the full recording here](https://youtu.be/M1ebdA58cg8)
 
 ---
 
@@ -86,9 +86,9 @@ Whether you're already a user or just getting started, this is a great chance to
 The session is funded by the 3DBAG Innovation Platform and [Geonovum](https://www.geonovum.nl/).
 If you're interested in 3D geodata, open-source tools, or want to contribute to the 3DBAG project yourself, we'd love to see you there!
 
-📍 The session will be held in English.
+The session will be held in English.
 
-🔗 [Registration here](https://www.geonovum.nl/agenda/3dbag-developers-meeting-may-28-2025)
+[Registration here](https://www.geonovum.nl/agenda/3dbag-developers-meeting-may-28-2025)
 
 ---
 
@@ -104,7 +104,7 @@ Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter, Hugo Ledoux, Ivan
 Event: 3DBAG Developers’ Meeting (Online)
 Date: 13 November 2024
 
-👉 [Watch the full recording here](https://www.youtube.com/watch?v=jctlRddCgiU)
+[Watch the full recording here](https://www.youtube.com/watch?v=jctlRddCgiU)
 
 We hope you find it insightful — and stay tuned for the next one!
 
@@ -120,7 +120,7 @@ The activities for launching the 3DBAG innovation platform in 2024 were the foll
 
 - **Starting the 3DBAG Developers community**. The 3DBAG developers community consists of developers who either want to use the software (and not the already reconstructed 3D data), for example based on their own data sources, or want to enrich and expand the software with new features. To start this community, a kick-off was organized on Wednesday, November 13, 2024. Since the use and further development of the software is also relevant outside the Netherlands, the developers community will have an international character.
 
-- **New release of 3DBAG based on AHN5**. AHN5 is now available for 2/3 of the Netherlands. Within the collaboration of the 3DBAG innovation platform, a study has been conducted on the impact of using AHN5 on the 3DBAG. Additionally, a new 3D BAG release will be issued based on AHN5.
+- **New release of 3DBAG based on AHN5**. AHN5 is now available for 2/3 of the Netherlands. Within the collaboration of the 3DBAG innovation platform, a study has been conducted on the impact of using AHN5 on the 3DBAG. Additionally, a new 3DBAG release will be issued based on AHN5.
 
 #####  3DBAG User's Presentations
 

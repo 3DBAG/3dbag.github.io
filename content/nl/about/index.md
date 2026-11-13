@@ -1,7 +1,7 @@
 ---
 title: "Over ons"
 layout: page/single.html
-summary: "De 3DBAG is een open data set, beschikbaar via [3DBAG.nl](3DBAG.nl) met gedetailleerde 3D modellen van BAG panden in Nederland, die via gedocumenteerde algoritmen eenduidig en reproduceerbaar worden afgeleid vanuit de BAG en de AHN. Deze “modelresultaten” worden opgeslagen als individueel herkenbare registraties."
+summary: "De 3DBAG is een open data set, beschikbaar via [3DBAG.nl](https://3dbag.nl/) met gedetailleerde 3D modellen van BAG panden in Nederland, die via gedocumenteerde algoritmen eenduidig en reproduceerbaar worden afgeleid vanuit de BAG en de AHN. Deze “modelresultaten” worden opgeslagen als individueel herkenbare registraties."
 omit_header_text: true
 #featured_image: '/images/tud.jpg'
 type: page
@@ -13,7 +13,7 @@ menu:
 
 ## Wat is de 3DBAG?
 
-De 3DBAG is een open data set, beschikbaar via [3DBAG.nl](3DBAG.nl) met gedetailleerde 3D modellen van BAG panden in Nederland, die via gedocumenteerde algoritmen eenduidig en reproduceerbaar worden afgeleid vanuit de BAG en de AHN. Deze “modelresultaten” worden opgeslagen als individueel herkenbare registraties. In het stelsel van basisregistraties kennen we deze vorm ook in de modellen voor geologie en bodem uit de basisregistratie ondergrond. 
+De 3DBAG is een open data set, beschikbaar via [3DBAG.nl](https://3dbag.nl/) met gedetailleerde 3D modellen van BAG panden in Nederland, die via gedocumenteerde algoritmen eenduidig en reproduceerbaar worden afgeleid vanuit de BAG en de AHN. Deze “modelresultaten” worden opgeslagen als individueel herkenbare registraties. In het stelsel van basisregistraties kennen we deze vorm ook in de modellen voor geologie en bodem uit de basisregistratie ondergrond.
 
 Naast de reconstructie algoritmen en de gereconstrueerde 3DBAG data voor heel Nederland in verschillende formaten, verschillende Levels of Detail en verschillende versies bestaat de 3DBAG voorziening uit de 3DBAG pijplijn software waarmee 3DBAG voor hele Nederland kan worden gereconstrueerd, inclusief voor- en nabewerking; een viewer; een downloadservice; web services (WFS/WMS, OGC API Features); hardware voor het processen, opslaan en beschikbaar stellen van 3DBAG; en documentatie/handreikingen. Alle 3DBAG onderdelen zijn beschikbaar als open data en open source software.
 

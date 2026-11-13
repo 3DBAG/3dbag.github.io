@@ -1,2 +1,6 @@
 /public
 .hugo_build.lock
+/preview/
+
+/node_modules/
+/static/home-map/

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ .Site.Language.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  {{ if not hugo.IsProduction }}<meta name="robots" content="noindex, nofollow">{{ end }}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Description | default (.Summary | plainify) }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="{{ "img/favicon.ico" | relURL }}" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="{{ "img/favicon.svg" | relURL }}" type="image/svg+xml" sizes="any">
+  <link rel="stylesheet" href="{{ "css/refined.css" | relURL }}">
+  {{ if .IsHome }}<link rel="stylesheet" href="{{ "home-map/home-map.css" | relURL }}">{{ end }}
+  {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ $.Site.Title }}">{{ end }}
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ if eq .Language.Lang "nl" }}Naar inhoud{{ else }}Skip to content{{ end }}</a>
+  {{ partial "site-navigation.html" . }}
+  <main id="main">{{ block "main" . }}{{ end }}</main>
+  {{ partial "site-footer.html" . }}
+</body>
+</html>

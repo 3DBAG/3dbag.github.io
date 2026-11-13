@@ -1,6 +1,6 @@
 ---
 title: ""
-description: "This is the website of the 3DBAG innovation platform. This platform is coordinated by Geonovum. On this website, an explanation of the platform is provided and activities, results, etc. of the platform are published."
+description: "Together with our partners, we are working towards a stable future for 3DBAG, ensuring the data remains available and continues to develop."
 # cascade:
 #featured_image: '/images/tud.jpg'
 omit_header_text: true

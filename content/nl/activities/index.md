@@ -1,5 +1,5 @@
 ---
-title: "Ons nieuws"
+title: "News"
 layout: page/single.html
 summary: "Ons laatste nieuws"
 omit_header_text: true
@@ -10,7 +10,7 @@ menu:
     weight: 2
 ---
 
-## 3D BAG release 2025 
+## 3DBAG release 2025 
 *09.09.2025*
 
 Vandaag zijn we verheugd om een nieuwe versie van de 3DBAG uit te brengen. Belangrijke nieuwe functies zijn twee nieuwe uitvoerformaten: `3D Tiles` (voor webvisualisatie) en `IFC` (voor BIM-gebruikers). Er zijn ook enkele kleinere verbeteringen, zoals het nieuwe attribuut `b3_h_nok` dat de hoofd-nokhoogte bevat. Daarnaast hebben we diverse verbeteringen doorgevoerd in de documentatie, waaronder verwijzingen naar onze 3dbag-scripts voor ontwikkelaars.
@@ -61,7 +61,7 @@ Kon je er niet bij zijn, maar wil je meer weten over het project en de mogelijkh
 Evenement: 2nd 3DBAG Developers’ Meeting (Online)  
 Sprekers: Balázs Dukai (3DGI), Ravi Peters (3DGI), Gina Stavropoulou (3D geoinformation), Jantien Stoter (3D geoinformation), Hugo Ledoux (3D geoinformation), Emmanuel Séguin (IGNF), Nicolas Bellaiche (IGNF), Primož Kete (GIS).
 
-👉 [Bekijk de volledige opname hier](https://youtu.be/M1ebdA58cg8)
+[Bekijk de volledige opname hier](https://youtu.be/M1ebdA58cg8)
 
 
 ---
@@ -82,9 +82,9 @@ Of je nu al gebruiker bent of net begint, dit is een mooie kans om:
 De sessie wordt gefinancierd door het 3DBAG Innovatieplatform en [Geonovum](https://www.geonovum.nl/).
 Als je geïnteresseerd bent in 3D-geodata, open-source tools, of wilt bijdragen aan het 3DBAG-project, zien we je graag!
 
-📍 De sessie zal in het Engels worden gehouden.
+De sessie zal in het Engels worden gehouden.
 
-🔗 [Aanmelden kan hier](https://www.geonovum.nl/agenda/3dbag-developers-meeting-may-28-2025)
+[Aanmelden kan hier](https://www.geonovum.nl/agenda/3dbag-developers-meeting-may-28-2025)
 
 ---
 
@@ -100,7 +100,7 @@ Balázs Dukai, Ravi Peters, Gina Stavropoulou, Jantien Stoter, Hugo Ledoux, Ivan
 Evenement: 3DBAG Ontwikkelaarsbijeenkomst (Online)  
 Datum: 13 november 2024
 
-👉 [Bekijk de volledige opname hier](https://www.youtube.com/watch?v=jctlRddCgiU)
+[Bekijk de volledige opname hier](https://www.youtube.com/watch?v=jctlRddCgiU)
 
 We hopen dat je het interessant vindt — en houd ons in de gaten voor de volgende bijeenkomst!
 
@@ -114,7 +114,7 @@ De activiteiten voor het opstarten van het 3DBAG innovatieplatform zijn:
 
 - **Starten 3DBAG Developers community**. De 3DBAG developers community bestaat uit ontwikkelaars die hetzij de software (en dus niet de reeds gereconstrueerde 3D data) willen gebruiken, bijvoorbeeld op basis van eigen data bronnen, hetzij de software willen verrijken en uitbreiden met nieuwe features. Om deze community op te starten is er op woensdag 13 november 2024 een kick-off georganiseerd. Omdat het gebruik en doorontwikkeling van de software ook relevant is voor buiten Nederland, zal de developers community een internationaal karakter hebben.
 
-- **Nieuwe release 3DBAG op basis van AHN5**. AHN5 is beschikbaar voor 2/3 van Nederland. Binnen de samenwerking van het 3DBAG innovatieplatform is een studie gedaan naar de impact van het gebruik van AHN5 op de 3DBAG. Tevens zal er een nieuwe 3D BAG release worden uitgebracht op basis van AHN5.
+- **Nieuwe release 3DBAG op basis van AHN5**. AHN5 is beschikbaar voor 2/3 van Nederland. Binnen de samenwerking van het 3DBAG innovatieplatform is een studie gedaan naar de impact van het gebruik van AHN5 op de 3DBAG. Tevens zal er een nieuwe 3DBAG release worden uitgebracht op basis van AHN5.
 
 #####  Presentaties van 3DBAG-gebruikers
 
