@@ -63,6 +63,9 @@ h2{font-size:clamp(32px,3.3vw,46px)}
 .footer-contact>.wrap,.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:24px}
 .footer-contact h2{font-size:30px}
 .footer-bottom{font-size:14px;padding:22px 0}
+.footer-github{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;flex-shrink:0}
+.footer-github svg{display:block;width:24px;height:24px;fill:currentColor}
+.footer-github:hover{color:var(--muted)}
 .document{padding-top:55px;padding-bottom:80px}
 .document>header{border-bottom:1px solid var(--line);padding-bottom:35px;margin-bottom:45px}
 .document h1{font-size:clamp(42px,6vw,76px);margin-top:16px}

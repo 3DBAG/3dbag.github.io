@@ -1,1 +1,1 @@
-<div class="partners-grid">{{ range .Site.Data.partners }}<div class="partner"><img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" width="150" height="80"></div>{{ end }}</div>
+<div class="partners-grid">{{ range .Site.Data.partners }}<a class="partner" href="{{ .url }}"><img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" width="150" height="80"></a>{{ end }}</div>
