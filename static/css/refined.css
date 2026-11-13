@@ -121,7 +121,8 @@ h2{font-size:clamp(32px,3.3vw,46px)}
 .hero-map .hero-map-canvas{position:absolute;inset:0}
 .hero-map-status{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:75%;padding:12px 20px;background:var(--paper);font-size:15px;text-align:center;z-index:2}
 .hero-map-status[hidden]{display:none}
-.hero-map-arrow{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:56px;border:1px solid #c9bddb;background:#f8f7f3ed;color:var(--ink);font:38px/1 'Source Sans',sans-serif;cursor:pointer;z-index:3;transition:background .15s}
+.hero-map-arrow{display:flex;align-items:center;justify-content:center;padding:0;position:absolute;top:50%;transform:translateY(-50%);width:46px;height:56px;border:1px solid #c9bddb;background:#f8f7f3ed;color:var(--ink);font:38px/1 'Source Sans',sans-serif;cursor:pointer;z-index:3;transition:background .15s}
+.hero-map-arrow svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .hero-map-arrow:hover{background:#e5deee}
 .hero-map-arrow:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .hero-map-arrow:disabled{opacity:.4;cursor:wait}

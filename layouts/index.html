@@ -4,14 +4,14 @@
   <section class="hero" aria-labelledby="hero-title">
     <p class="eyebrow">{{ if $nl }}Alle 10 miljoen gebouwen van Nederland in 3D{{ else }}All 10 million buildings of the Netherlands in 3D{{ end }}</p>
     <h1 id="hero-title">{{ if $nl }}Samen werken aan<br>de toekomst van 3DBAG{{ else }}Working together for<br>the future of 3DBAG.{{ end }}</h1>
-    <div class="hero-intro"><p>{{ .Description }}</p><div class="hero-actions"><a class="button" data-open-map href="https://3dbag.nl/{{ if $nl }}nl{{ else }}en{{ end }}/viewer?basemap=openfreemap&amp;lod=lod22">Open in 3DBAG <span aria-hidden="true">↗</span></a></div></div>
+    <div class="hero-intro"><p>{{ .Description }}</p><div class="hero-actions"><a class="button" data-open-map href="https://3dbag.nl/{{ if $nl }}nl{{ else }}en{{ end }}/viewer?basemap=openfreemap&amp;lod=lod22">Open 3DBAG.nl <span aria-hidden="true">↗</span></a></div></div>
     <figure class="hero-image" data-home-map>
       <div class="hero-map">
         <div class="hero-map-canvas" role="img" aria-label="{{ if $nl }}3D-kaart van Nederland{{ else }}3D map of the Netherlands{{ end }}"></div>
         <p class="hero-map-status" data-map-status role="status">{{ if $nl }}Kaart laden…{{ else }}Loading map…{{ end }}</p>
         {{ if (index .Site.Data "home-map").paging }}
-        <button class="hero-map-arrow hero-map-prev" type="button" data-map-step="-1" disabled aria-label="{{ if $nl }}Vorige locatie{{ else }}Previous location{{ end }}"><span aria-hidden="true">‹</span></button>
-        <button class="hero-map-arrow hero-map-next" type="button" data-map-step="1" disabled aria-label="{{ if $nl }}Volgende locatie{{ else }}Next location{{ end }}"><span aria-hidden="true">›</span></button>
+        <button class="hero-map-arrow hero-map-prev" type="button" data-map-step="-1" disabled aria-label="{{ if $nl }}Vorige locatie{{ else }}Previous location{{ end }}"><svg aria-hidden="true" viewBox="0 0 16 16"><path d="M10.5 3 5.5 8l5 5"/></svg></button>
+        <button class="hero-map-arrow hero-map-next" type="button" data-map-step="1" disabled aria-label="{{ if $nl }}Volgende locatie{{ else }}Next location{{ end }}"><svg aria-hidden="true" viewBox="0 0 16 16"><path d="M5.5 3 10.5 8l-5 5"/></svg></button>
         {{ end }}
         <noscript><p class="hero-map-status">{{ if $nl }}Schakel JavaScript in om de kaart te bekijken.{{ else }}Enable JavaScript to view the map.{{ end }}</p></noscript>
       </div>

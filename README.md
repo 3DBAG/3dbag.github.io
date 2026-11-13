@@ -102,7 +102,7 @@ purple to retain shading detail. Flat face normals, a fixed oblique key light,
 a soft fill and neutral tone mapping keep roof/facade orientations visible while
 orbiting, including in the darkest category.
 
-Picking is disabled with `enablePicking: false`. “Open in 3DBAG” follows the
+Picking is disabled with `enablePicking: false`. “Open 3DBAG.nl” follows the
 current camera, including orbit changes, using the matching language and
 `basemap=openfreemap&lod=lod22`. Camera coordinates come from the engine's
 `camera-change` event and are refreshed on click.
