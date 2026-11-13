@@ -1,0 +1,147 @@
+{
+  "tilesUrl": "https://data.3dbag.nl/v20250903/cesium3dtiles/lod22/tileset.json",
+  "zoom": 15.8,
+  "pitch": 55,
+  "buildingColor": "#b6a0cd",
+  "highlights": {
+    "attribute": "identificatie",
+    "values": [
+      "NL.IMBAG.Pand.0014100010924795",
+      "NL.IMBAG.Pand.0503100000032914",
+      "NL.IMBAG.Pand.0518100000211472",
+      "NL.IMBAG.Pand.0153100000251610",
+      "NL.IMBAG.Pand.0363100012237298",
+      "NL.IMBAG.Pand.0599100100007493",
+      "NL.IMBAG.Pand.0200100000085665",
+      "NL.IMBAG.Pand.0307100000333887",
+      "NL.IMBAG.Pand.0796100000237576",
+      "NL.IMBAG.Pand.0193100000041732",
+      "NL.IMBAG.Pand.0935100000017126",
+      "NL.IMBAG.Pand.0687100000029116"
+    ],
+    "color": "#e87526"
+  },
+  "locations": [
+    {
+      "id": "groningen",
+      "name": "Martinitoren, Groningen",
+      "rdx": "233883.05613044044",
+      "rdy": "582067.5022123696",
+      "ox": "86.31198444741312",
+      "oy": "223.62723335141126",
+      "oz": "-213.46594233483484"
+    },
+    {
+      "id": "delft",
+      "name": "Faculteit Bouwkunde en Gebouwde Omgeving, TU Delft",
+      "rdx": "85181.55571255696",
+      "rdy": "446859.38171179296",
+      "ox": "-223.36609616703936",
+      "oy": "281.19798302772574",
+      "oz": "-184.218705413541"
+    },
+
+    {
+      "id": "denhaag",
+      "name": "Binnenhof, Den Haag",
+      "rdx": "81400.80217103881",
+      "rdy": "455103.77450616646",
+      "ox": "-103.15277883922681",
+      "oy": "304.2167056982877",
+      "oz": "295.7610066451707"
+    },
+    {
+      "id": "almere",
+      "name": "Centrum, Almere",
+      "rdx": "143519.99854925662",
+      "rdy": "487571.7023815686",
+      "ox": "136.94977512079276",
+      "oy": "354.82339197925825",
+      "oz": "-338.7004010576784"
+    },
+    {
+      "id": "enschede",
+      "name": "Rijksmuseum Twenthe, Enschede",
+      "rdx": "258162.28775981526",
+      "rdy": "472182.8665299825",
+      "ox": "121.18269469481311",
+      "oy": "201.82357809965592",
+      "oz": "-168.81295239685824"
+    },
+    {
+      "id": "rotterdam",
+      "name": "Markthal, Rotterdam",
+      "rdx": "93119.09254059207",
+      "rdy": "437186.0629824749",
+      "ox": "-127.91004707288812",
+      "oy": "304.21670569836294",
+      "oz": "285.92671909403725"
+    },
+    {
+      "id": "apeldoorn",
+      "name": "Paleis Het Loo, Apeldoorn",
+      "rdx": "193216.4973853206",
+      "rdy": "471915.31581514573",
+      "ox": "158.33821536321557",
+      "oy": "223.62723335142283",
+      "oz": "-167.17199751079715"
+    },
+    {
+      "id": "amersfoort",
+      "name": "Onze Lieve Vrouwetoren, Amersfoort",
+      "rdx": "154999.99951085245",
+      "rdy": "463000.0004844545",
+      "ox": "43.18116505761827",
+      "oy": "223.6272333513586",
+      "oz": "-226.16996745897518"
+    },
+    {
+      "id": "denbosch",
+      "name": "Sint-Janskathedraal, 's-Hertogenbosch",
+      "rdx": "149534.36806771162",
+      "rdy": "411019.71484306274",
+      "ox": "164.30457836145433",
+      "oy": "247.78640814564287",
+      "oz": "195.1808054376088"
+    },
+    {
+      "id": "maastricht",
+      "name": "Basiliek van Sint Servaas, Maastricht",
+      "rdx": "176108.0009944554",
+      "rdy": "317707.01251874195",
+      "ox": "-132.21739802892353",
+      "oy": "235.39708773830188",
+      "oz": "203.13462448649807"
+    }
+  ],
+  "terrainTileJsonUrl": "https://roofer-online.nl/mapterhorn-fork/tilejson.json",
+  "terrainEncoding": "terrarium",
+  "fieldOfView": 10,
+  "heightColors": {
+    "attribute": "b3_h_nok",
+    "bands": [
+      {
+        "below": 8,
+        "color": "#d5c7e5"
+      },
+      {
+        "below": 15,
+        "color": "#bda4d5"
+      },
+      {
+        "below": 25,
+        "color": "#ab8bc5"
+      },
+      {
+        "below": 40,
+        "color": "#9974b7"
+      },
+      {
+        "below": 60,
+        "color": "#8a62ab"
+      }
+    ],
+    "above": "#7b509c",
+    "groundAttribute": "b3_h_maaiveld"
+  }
+}

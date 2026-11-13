@@ -1,0 +1,21 @@
+{
+  "name": "3dbag-homepage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:map": "vite build",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@bertt/3dtilesrenderer-styling-plugin": "0.1.0",
+    "3d-tiles-renderer": "0.5.3",
+    "3dtoml": "https://codeload.github.com/3dbag/3dtoml/tar.gz/6db16af7615cf7ecfc122c13ffa868b02eba66c7",
+    "maplibre-gl": "6.15.0",
+    "proj4": "2.20.9",
+    "three": "0.185.1",
+    "tweakpane": "1.6.1"
+  },
+  "devDependencies": {
+    "vite": "7.3.8"
+  }
+}
