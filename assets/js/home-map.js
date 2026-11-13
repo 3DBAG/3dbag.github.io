@@ -73,10 +73,11 @@ function updateViewLink(position) {
 
 function showLocation() {
   updateViewLink(config.locations[index]);
-  caption.textContent = `${config.locations[index].name} · ${index + 1} / ${config.locations.length}`;
+  caption.textContent = config.locations[index].name + (config.paging ? ` · ${index + 1} / ${config.locations.length}` : '');
 }
 
 function preloadNeighbours() {
+  if (!config.paging) return;
   const count = config.locations.length;
   preloader.schedule([1, -1].map(step => camera(config.locations[(index + step + count) % count]).center),
     () => Boolean(viewer.tiles?.stats.downloading || viewer.tiles?.stats.parsing));

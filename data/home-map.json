@@ -1,7 +1,8 @@
 {
   "tilesUrl": "https://data.3dbag.nl/v20250903/cesium3dtiles/lod22/tileset.json",
+  "paging": true,
   "zoom": 15.8,
-  "pitch": 55,
+  "pitch": 35,
   "buildingColor": "#b6a0cd",
   "highlights": {
     "attribute": "identificatie",
@@ -67,15 +68,6 @@
       "ox": "121.18269469481311",
       "oy": "201.82357809965592",
       "oz": "-168.81295239685824"
-    },
-    {
-      "id": "rotterdam",
-      "name": "Markthal, Rotterdam",
-      "rdx": "93119.09254059207",
-      "rdy": "437186.0629824749",
-      "ox": "-127.91004707288812",
-      "oy": "304.21670569836294",
-      "oz": "285.92671909403725"
     },
     {
       "id": "apeldoorn",

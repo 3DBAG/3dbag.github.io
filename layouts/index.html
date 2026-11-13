@@ -9,8 +9,10 @@
       <div class="hero-map">
         <div class="hero-map-canvas" role="img" aria-label="{{ if $nl }}3D-kaart van Nederland{{ else }}3D map of the Netherlands{{ end }}"></div>
         <p class="hero-map-status" data-map-status role="status">{{ if $nl }}Kaart laden…{{ else }}Loading map…{{ end }}</p>
+        {{ if (index .Site.Data "home-map").paging }}
         <button class="hero-map-arrow hero-map-prev" type="button" data-map-step="-1" disabled aria-label="{{ if $nl }}Vorige locatie{{ else }}Previous location{{ end }}"><span aria-hidden="true">‹</span></button>
         <button class="hero-map-arrow hero-map-next" type="button" data-map-step="1" disabled aria-label="{{ if $nl }}Volgende locatie{{ else }}Next location{{ end }}"><span aria-hidden="true">›</span></button>
+        {{ end }}
         <noscript><p class="hero-map-status">{{ if $nl }}Schakel JavaScript in om de kaart te bekijken.{{ else }}Enable JavaScript to view the map.{{ end }}</p></noscript>
       </div>
       <figcaption><span data-map-location aria-live="polite"></span></figcaption>

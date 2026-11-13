@@ -39,7 +39,9 @@ OpenFreeMap Liberty, and the Cesium LoD 2.2 tileset from the viewer manifest.
 `data/home-map.json` contains the selected locations copied from
 `../3dbag-viewer/src/assets/manifest.json`, plus zoom, pitch and colors. Terrain uses the same Terrarium DEM as the viewer:
 `https://roofer-online.nl/mapterhorn-fork/tilejson.json`, with purple hillshading.
-The arrows switch locations immediately. Drag with the left mouse button to rotate and tilt around the location. Scroll
+Paging is enabled by default (`"paging": true`), otherwise the map stays on the first
+configured location.
+Scroll
 zoom remains disabled so the map does not capture page scrolling. The configurable
 `fieldOfView` defaults to 10 degrees for a near-orthographic view while keeping
 the basemap, terrain and buildings aligned.
